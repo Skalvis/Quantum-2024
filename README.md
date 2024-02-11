@@ -1,9 +1,12 @@
 # Master thesis repository 2021-2024
 
 Student: Skalvis Paliulis, skalvis.paliulis@gmail.com
+
 Supervisor: Assoc. Prof. Linas Petkevičius 
 
-Modelling and data analysis master thesis: **"INVESTIGATION OF CLASSIFICATION ALGORITHMS IN QUANTUM COMPUTING"**
+Modelling and data analysis master thesis: 
+
+**"INVESTIGATION OF CLASSIFICATION ALGORITHMS IN QUANTUM COMPUTING"**
 
 This repository contains two Jupyter notebook files:
 1. Classical algo.ipynb - contains classical classification algorithms' used for benchmark, created using [Pycaret package](https://pycaret.gitbook.io/docs/) Date accessed on 2024-01-06. 
@@ -17,7 +20,7 @@ This repository contains two Jupyter notebook files:
 - Circle data set. Manually generated data set, code for data generation taken from PennyLane tutorial by Shahnawaz Ahmed. [Data-reuploading classifier](https://pennylane.ai/qml/demos/tutorial_data_reuploading_classifier/) Date accessed: 2023-12-27.
 
 ## Thesis Aim: 
-empirically investigate classification algorithms in quantum computing using PennyLane framework. Focus to be directed towards already available quantum classification algorithms, 
+Empirically investigate classification algorithms in quantum computing using PennyLane framework. Focus to be directed towards already available quantum classification algorithms, 
 compared against well-established classical algorithms. Moreover, we ought to cover supervised learning algorithms. In terms of classification task, single-class/binary and multi-class classification
 algorithm benchmarks assessed using standard metrics. Throughout experiment, mostly locally held simulators to be used. 
 
@@ -40,7 +43,7 @@ algorithm benchmarks assessed using standard metrics. Throughout experiment, mos
 		- Preprocessing example taken from [Qiskit Challenge India 2020](https://github.com/Qiskit-Challenge-India/2020/blob/master/Day%206%2C%207%2C8/VQC_notebook.ipynb). 
 
 ## Experiment Setup
-** PyTorch interface for PennyLane framework, with default.qubit simulator, to implement multiple one-vs-all classifiers.**
+**PyTorch interface for PennyLane framework, with default.qubit simulator, to implement multiple one-vs-all classifiers.**
 
 ### Environment and Carcass
 Experiment was carried in Python 3 programming language using Jupyter Notebooks. Codes themselves were ran on [Google Colab](https://colab.research.google.com/) environment, Linux based VM with integrated Python 3 environment. 
@@ -52,7 +55,7 @@ CPU consisted of two Intel(R) Xeon(R) CPU @ 2.20GHz processors.
 3. Class predictions $p(y)$ and score $s$ received during measurement. 
 
 Computational scheme Ansatz example for Iris data set:
-![Iris QSVM Ansatz](https://raw.githubusercontent.com/Skalvis/Quantum-2024/master/Images/QSVM_iris_schema_corrected.png)
+![Iris QSVM Ansatz](/Skalvis/Quantum-2024/master/Images/QSVM_iris_schema_corrected.png)
 
 ### Classical Processing Unit Part
 1. Optimization done using Adam - Adaptive Moment estimation algorithm.
