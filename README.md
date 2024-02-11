@@ -55,7 +55,7 @@ CPU consisted of two Intel(R) Xeon(R) CPU @ 2.20GHz processors.
 3. Class predictions $p(y)$ and score $s$ received during measurement. 
 
 Computational scheme Ansatz example for Iris data set:
-![Iris QSVM Ansatz](/Skalvis/Quantum-2024/master/Images/QSVM_iris_schema_corrected.png)
+![Iris QSVM Ansatz](/Skalvis/Quantum-2024/master/Imagesandresults/QSVM_iris_schema_corrected.png)
 
 ### Classical Processing Unit Part
 1. Optimization done using Adam - Adaptive Moment estimation algorithm.
@@ -75,5 +75,10 @@ From the results we could draw such conclusions:
 3. Running model on near-term quantum device could improve model performance.
 4. Increasing iteration count for training procedure might improve overall QSVM accuracy.
 
+Further result tables can be found [here](/Skalvis/Quantum-2024/master/Imagesandresults/results.md) 
+
 # Dislaimer
 All credits to their initial authors from PennyLane for code reused in this work, as well as, for data preprocessing from Qiskit Challenge India 2020 for t-SNE and SVD application for high dimensional data. 
+
+# Key References
+
