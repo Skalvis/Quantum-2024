@@ -1,4 +1,4 @@
-# Master thesis repo 2023
+# Master thesis repo 2021-2024
 
 Student: Skalvis Paliulis, skalvis.paliulis@mif.stud.vu.lt
 
