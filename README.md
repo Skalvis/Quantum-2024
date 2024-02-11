@@ -2,7 +2,7 @@
 
 Student: Skalvis Paliulis, skalvis.paliulis@gmail.com
 
-Supervisor: Assoc. Prof. Linas Petkevičius 
+Supervisor: Assoc. Prof. Linas Petkevičius (Vilnius University)
 
 Modelling and data analysis master thesis: 
 
@@ -55,7 +55,7 @@ CPU consisted of two Intel(R) Xeon(R) CPU @ 2.20GHz processors.
 3. Class predictions $p(y)$ and score $s$ received during measurement. 
 
 Computational scheme Ansatz example for Iris data set:
-![Iris QSVM Ansatz](/Skalvis/Quantum-2024/master/Imagesandresults/QSVM_iris_schema_corrected.png)
+![Iris QSVM Ansatz](/Skalvis/Quantum-2024/master/Images_and_results/QSVM_iris_schema_corrected.png)
 
 ### Classical Processing Unit Part
 1. Optimization done using Adam - Adaptive Moment estimation algorithm.
@@ -75,10 +75,18 @@ From the results we could draw such conclusions:
 3. Running model on near-term quantum device could improve model performance.
 4. Increasing iteration count for training procedure might improve overall QSVM accuracy.
 
-Further result tables can be found [here](/Skalvis/Quantum-2024/master/Imagesandresults/results.md) 
+Further result tables can be found [here](/Images_and_results/results.md) 
 
 # Dislaimer
-All credits to their initial authors from PennyLane for code reused in this work, as well as, for data preprocessing from Qiskit Challenge India 2020 for t-SNE and SVD application for high dimensional data. 
+All credits to their original authors from PennyLane for code reused in this work, as well as, for data preprocessing from Qiskit Challenge India 2020 for t-SNE and SVD application for high dimensional data. 
 
 # Key References
-
+- Shahnawaz Ahmed. Data-reuploading classifier. (https://pennylane.ai/qml/demos/tutorial_data_reuploading_classifier/), 09 2019. Date Accessed: 2023-12-27.
+- Ville Bergholm *et al*, Pennylane: Automatic differentiation of hybrid quantum-classical computations, 2022.
+- M. Cerezo *et al*,  Variational quantum algorithms. Nature Reviews Physics, 3(9):625–644, August 2021.
+- Safwan Hossein. Multiclass margin classifier. (https://pennylane.ai/qml/demos/tutorial_multiclass_classification/), 03 2020. Date Accessed: 2023-11-20.
+- Adrián Pérez-Salinas, Alba Cervera-Lierta, Elies Gil-Fuster, and José I. Latorre. Data re-uploading for a universal quantum classifier. Quantum, 4:226, February 2020.
+- Maria Schuld. Supervised quantum machine learning models are kernel methods, 2021.
+- Maria Schuld, Alex Bocharov, Krysta M. Svore, and Nathan Wiebe. Circuit-centric quantum classifiers. Physical Review A, 101(3), March 2020.
+- Maria Schuld and Francesco Petruccione. Machine Learning with Quantum Computers. Springer Cham, Cham, Switzerland, 2021. 312 p.
+- K. Mitarai, M. Negoro, M. Kitagawa, and K. Fujii. Quantum circuit learning. Physical Review A, 98(3), September 2018.
