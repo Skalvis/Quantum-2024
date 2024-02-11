@@ -42,10 +42,12 @@ algorithm benchmarks assessed using standard metrics. Throughout experiment, mos
 	2. Data dimension reduced from 784 columns (28x28) to 2, using combination of [SVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html) and [t-SNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html).
 		- Preprocessing example taken from [Qiskit Challenge India 2020](https://github.com/Qiskit-Challenge-India/2020/blob/master/Day%206%2C%207%2C8/VQC_notebook.ipynb). 
 
-MNIST class distribution after dimensionality reduction (N = 1000 observations)
+#### MNIST class distribution after dimensionality reduction (N = 1000 observations)
+
 ![MNIST class distribution after dimensionality reduction](/Images_and_results/MNIST_data_dim.png?raw=true "MNIST after dimensionality reduction")
 
-Circle data set split (N = 2000 observations)
+#### Circle data set split (N = 2000 observations)
+
 ![Circle data set split](/Images_and_results/Circles_2k_test_train.png?raw=true "Circle data set split")
 
 ## Experiment Setup

@@ -23,9 +23,11 @@ Result tables output from QSVM classifier.
 |SVM - Linear Kernel |0.7152 |0.7152 |0.5893 |0.6317 |0.033|
 
 Cost and Accuracy trade-off: 
+
 ![Cost_acc_Iris](/Images_and_results/QSVM_cost_acc_iris.png?raw=true "Iris Cost and Accuracy trade-off")
 
 Ansatz used:
+
 ![Iris QSVM Ansatz](/Images_and_results/QSVM_iris_schema_corrected.png?raw=true "Iris Ansatz")
 
 ### Benchmark Results on Wine Quality data set
@@ -49,9 +51,11 @@ Ansatz used:
 |SVM - Linear Kernel |0.9160 |0.9821 |0.9132 |0.9461 |0.044|
 
 Cost and Accuracy trade-off: 
+
 ![Cost_acc_Wine](/Images_and_results/QSVM_cost_acc_wine.png?raw=true "Wine Quality Cost and Accuracy trade-off")
 
 Ansatz used:
+
 ![Wine QSVM Ansatz](/Images_and_results/QSVM_wine_schema_corrected.png?raw=true "Wine Quality Ansatz")
 
 ### Benchmark Results on MNIST data set
@@ -75,9 +79,11 @@ Ansatz used:
 |SVM - Linear Kernel |0.3720 |0.3720 |0.2415 |0.2739 |0.044|
 
 Cost and Accuracy trade-off: 
+
 ![Cost_acc_MNIST](/Images_and_results/QSVM_cost_acc_MNIST.png?raw=true "MNIST Cost and Accuracy trade-off")
 
 Ansatz used:
+
 ![MNIST QSVM Ansatz](/Images_and_results/QSVM_MNIST_schema.png?raw=true "MNIST Ansatz")
 
 ### Benchmark Results on Circle data set
@@ -101,7 +107,9 @@ Ansatz used:
 |SVM - Linear Kernel |0.5213 |0.3930 |0.4134 |0.3924 |0.027|
 
 Cost and Accuracy trade-off: 
+
 ![Cost_acc_Circle](/Images_and_results/QSVM_cost_acc_circle.png?raw=true "Circle Cost and Accuracy trade-off")
 
 Ansatz used:
+
 ![Circle QSVM Ansatz](/Images_and_results/QSVM_Circle_schema.png?raw=true "Circle Ansatz")
