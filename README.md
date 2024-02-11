@@ -42,6 +42,11 @@ algorithm benchmarks assessed using standard metrics. Throughout experiment, mos
 	2. Data dimension reduced from 784 columns (28x28) to 2, using combination of [SVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html) and [t-SNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html).
 		- Preprocessing example taken from [Qiskit Challenge India 2020](https://github.com/Qiskit-Challenge-India/2020/blob/master/Day%206%2C%207%2C8/VQC_notebook.ipynb). 
 
+MNIST class distribution after dimensionality reduction (N = 1000 observations)
+![MNIST class distribution after dimensionality reduction](/Images_and_results/MNIST_data_dim.png?raw=true "MNIST after dimensionality reduction")
+Circle data set split (N = 2000 observations)
+![Circle data set split](/Images_and_results/Circles_2k_test_train.png?raw=true "Circle data set split")
+
 ## Experiment Setup
 **PyTorch interface for PennyLane framework, with default.qubit simulator, to implement multiple one-vs-all classifiers.**
 
@@ -75,7 +80,8 @@ From the results we could draw such conclusions:
 3. Running model on near-term quantum device could improve model performance.
 4. Increasing iteration count for training procedure might improve overall QSVM accuracy.
 
-Further result tables can be found [here](/Images_and_results/results.md) 
+Further results can be found [here](/Images_and_results/results.md) 
+Full thesis can be accessed [here](https://drive.google.com/file/d/1FLWjTT6Acf82l9WjKs-733K0NFnLeD3Z/view?usp=sharing)
 
 # Dislaimer
 All credits to their original authors from PennyLane for code reused in this work, as well as, for data preprocessing from Qiskit Challenge India 2020 for t-SNE and SVD application for high dimensional data. 
